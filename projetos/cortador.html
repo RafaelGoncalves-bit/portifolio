@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Cortador - Projeto desenvolvido por Rafael Gonçalves de Lima."
+    >
+
+    <title>Cortador | Rafael Lima</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="../css/projeto.css"
+    >
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+            <div class="container">
+
+                <a
+                    class="navbar-brand"
+                    href="../index.html"
+                >
+                    Rafael<span>.</span>
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarMenu"
+                >
+
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                        <li class="nav-item">
+
+                            <a
+                                class="nav-link"
+                                href="../index.html#inicio"
+                            >
+                                Início
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a
+                                class="nav-link"
+                                href="../index.html#projetos"
+                            >
+                                Projetos
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a
+                                class="nav-link"
+                                href="../index.html#certificados"
+                            >
+                                Certificados
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item ms-lg-3">
+
+                            <a
+                                class="btn btn-voltar"
+                                href="../index.html#projetos"
+                            >
+                                <i class="fa-solid fa-arrow-left"></i>
+
+                                Voltar ao portfólio
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="project-hero">
+
+            <div class="container">
+
+                <div class="project-breadcrumb">
+
+                    <a href="../index.html">
+                        Portfólio
+                    </a>
+
+                    <i class="fa-solid fa-chevron-right"></i>
+
+                    <a href="../index.html#projetos">
+                        Projetos
+                    </a>
+
+                    <i class="fa-solid fa-chevron-right"></i>
+
+                    <span>
+                        Cortador
+                    </span>
+
+                </div>
+
+
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-6">
+
+                        <span class="project-category">
+                            Aplicação Web
+                        </span>
+
+                        <h1>
+                            Cortador
+                        </h1>
+
+                        <p class="project-subtitle">
+
+                            Aplicação desenvolvida para simplificar e
+                            automatizar processos de manipulação e organização
+                            de arquivos, reduzindo tarefas manuais e tornando
+                            o fluxo de trabalho mais rápido.
+
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>
+                                <i class="fa-brands fa-python"></i>
+                                Python
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-code"></i>
+                                Django
+                            </span>
+
+                            <span>
+                                <i class="fa-brands fa-html5"></i>
+                                HTML
+                            </span>
+
+                            <span>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                CSS
+                            </span>
+
+                            <span>
+                                <i class="fa-brands fa-js"></i>
+                                JavaScript
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-actions">
+
+                            <a
+                                href="#sobre"
+                                class="btn-primary-project"
+                            >
+                                Conhecer projeto
+
+                                <i class="fa-solid fa-arrow-down"></i>
+                            </a>
+
+                            <!--
+                            Caso o projeto tenha link público:
+
+                            <a
+                                href="https://seusite.com"
+                                target="_blank"
+                                class="btn-secondary-project"
+                            >
+                                Abrir projeto
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                            -->
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-6">
+
+                        <div class="hero-image">
+
+                            <img
+                                src="../assets/cortador.png"
+                                alt="Tela do projeto Cortador"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section
+            id="sobre"
+            class="project-section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        Visão geral
+                    </span>
+
+                    <h2>
+                        Sobre o projeto
+                    </h2>
+
+                </div>
+
+
+                <div class="row g-5">
+
+                    <div class="col-lg-8">
+
+                        <div class="project-text">
+
+                            <p>
+
+                                O <strong>Cortador</strong> foi desenvolvido
+                                com o objetivo de facilitar uma tarefa que
+                                anteriormente precisava ser executada de forma
+                                manual.
+
+                            </p>
+
+                            <p>
+
+                                A aplicação centraliza esse processo em uma
+                                interface web simples, permitindo que o usuário
+                                envie os arquivos necessários e realize o
+                                processamento diretamente pelo navegador.
+
+                            </p>
+
+                            <p>
+
+                                O projeto foi construído pensando principalmente
+                                em produtividade, facilidade de uso e redução
+                                de erros durante o processo.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-4">
+
+                        <div class="project-info-card">
+
+                            <div class="info-item">
+
+                                <i class="fa-solid fa-user"></i>
+
+                                <div>
+
+                                    <span>
+                                        Desenvolvedor
+                                    </span>
+
+                                    <strong>
+                                        Rafael Gonçalves de Lima
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="info-item">
+
+                                <i class="fa-solid fa-layer-group"></i>
+
+                                <div>
+
+                                    <span>
+                                        Tipo
+                                    </span>
+
+                                    <strong>
+                                        Aplicação Web
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="info-item">
+
+                                <i class="fa-solid fa-code"></i>
+
+                                <div>
+
+                                    <span>
+                                        Backend
+                                    </span>
+
+                                    <strong>
+                                        Python / Django
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="info-item">
+
+                                <i class="fa-solid fa-circle-check"></i>
+
+                                <div>
+
+                                    <span>
+                                        Status
+                                    </span>
+
+                                    <strong class="status-active">
+                                        Em produção
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROBLEMA -->
+        <section class="project-section section-dark">
+
+            <div class="container">
+
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-5">
+
+                        <div class="section-heading">
+
+                            <span>
+                                Contexto
+                            </span>
+
+                            <h2>
+                                O problema
+                            </h2>
+
+                        </div>
+
+
+                        <p class="section-description">
+
+                            Processos manuais envolvendo arquivos podem
+                            consumir bastante tempo, além de aumentar o risco
+                            de erros e dificultar a padronização da operação.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="col-lg-7">
+
+                        <div class="problem-card">
+
+                            <div class="problem-icon">
+
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Processo manual e repetitivo
+                                </h3>
+
+                                <p>
+
+                                    A necessidade era transformar uma tarefa
+                                    operacional repetitiva em um fluxo mais
+                                    simples, onde o usuário pudesse executar
+                                    todo o processo através de uma única
+                                    ferramenta.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOLUÇÃO -->
+        <section class="project-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        Desenvolvimento
+                    </span>
+
+                    <h2>
+                        A solução
+                    </h2>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+
+                        </div>
+
+                        <h3>
+                            Upload simplificado
+                        </h3>
+
+                        <p>
+
+                            Interface desenvolvida para permitir o envio dos
+                            arquivos de maneira rápida e intuitiva.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-gears"></i>
+
+                        </div>
+
+                        <h3>
+                            Processamento automático
+                        </h3>
+
+                        <p>
+
+                            O servidor recebe os arquivos e executa
+                            automaticamente as operações necessárias.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-bolt"></i>
+
+                        </div>
+
+                        <h3>
+                            Mais produtividade
+                        </h3>
+
+                        <p>
+
+                            Redução do tempo gasto em tarefas repetitivas e
+                            diminuição de intervenções manuais.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-display"></i>
+
+                        </div>
+
+                        <h3>
+                            Interface Web
+                        </h3>
+
+                        <p>
+
+                            O sistema pode ser utilizado diretamente pelo
+                            navegador sem necessidade de instalação local.
+
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TECNOLOGIAS -->
+        <section class="project-section section-dark">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        Stack
+                    </span>
+
+                    <h2>
+                        Tecnologias utilizadas
+                    </h2>
+
+                </div>
+
+
+                <div class="technology-grid">
+
+                    <div class="technology-card">
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                            alt="Python"
+                        >
+
+                        <div>
+
+                            <strong>
+                                Python
+                            </strong>
+
+                            <span>
+                                Backend
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="technology-card">
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
+                            alt="Django"
+                        >
+
+                        <div>
+
+                            <strong>
+                                Django
+                            </strong>
+
+                            <span>
+                                Framework
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="technology-card">
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                            alt="HTML"
+                        >
+
+                        <div>
+
+                            <strong>
+                                HTML
+                            </strong>
+
+                            <span>
+                                Frontend
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="technology-card">
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                            alt="CSS"
+                        >
+
+                        <div>
+
+                            <strong>
+                                CSS
+                            </strong>
+
+                            <span>
+                                Interface
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="technology-card">
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                            alt="JavaScript"
+                        >
+
+                        <div>
+
+                            <strong>
+                                JavaScript
+                            </strong>
+
+                            <span>
+                                Frontend
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SCREENSHOT -->
+        <section class="project-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        Interface
+                    </span>
+
+                    <h2>
+                        Visual do projeto
+                    </h2>
+
+                    <p>
+
+                        Interface desenvolvida pensando em simplicidade e
+                        facilidade de utilização.
+
+                    </p>
+
+                </div>
+
+
+                <div class="project-screenshot">
+
+                    <div class="browser-header">
+
+                        <div class="browser-buttons">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+                        <div class="browser-url">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            Cortador
+
+                        </div>
+
+                    </div>
+
+
+                    <img
+                        src="../assets/cortador.png"
+                        alt="Screenshot completo do Cortador"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- O QUE APRENDI -->
+        <section class="project-section section-dark">
+
+            <div class="container">
+
+                <div class="row g-5 align-items-center">
+
+                    <div class="col-lg-6">
+
+                        <div class="section-heading">
+
+                            <span>
+                                Desenvolvimento
+                            </span>
+
+                            <h2>
+                                O que esse projeto envolveu
+                            </h2>
+
+                        </div>
+
+
+                        <p class="section-description">
+
+                            Além do desenvolvimento da interface, o projeto
+                            envolveu construção da lógica no backend,
+                            processamento de arquivos, tratamento de erros e
+                            disponibilização da aplicação para os usuários.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="col-lg-6">
+
+                        <div class="learning-box">
+
+                            <div>
+
+                                <i class="fa-solid fa-server"></i>
+
+                                <span>
+                                    Backend e processamento
+                                </span>
+
+                            </div>
+
+
+                            <div>
+
+                                <i class="fa-solid fa-file"></i>
+
+                                <span>
+                                    Manipulação de arquivos
+                                </span>
+
+                            </div>
+
+
+                            <div>
+
+                                <i class="fa-solid fa-code"></i>
+
+                                <span>
+                                    Desenvolvimento Web
+                                </span>
+
+                            </div>
+
+
+                            <div>
+
+                                <i class="fa-solid fa-rocket"></i>
+
+                                <span>
+                                    Deploy e infraestrutura
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRÓXIMO PROJETO -->
+        <section class="next-project">
+
+            <div class="container">
+
+                <a href="../index.html#projetos">
+
+                    <div>
+
+                        <span>
+                            Outros trabalhos
+                        </span>
+
+                        <h2>
+                            Ver todos os projetos
+                        </h2>
+
+                    </div>
+
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <p>
+                    © <span id="ano"></span>
+                    Rafael Gonçalves de Lima
+                </p>
+
+
+                <div>
+
+                    <a
+                        href="https://github.com/RafaelGoncalves-bit"
+                        target="_blank"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/rafael-lima-ab402234b/"
+                        target="_blank"
+                    >
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+
+    <script>
+
+        document.getElementById("ano").textContent =
+            new Date().getFullYear();
+
+    </script>
+
+</body>
+
+</html>
